@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Management System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>       
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="container">
+              <a class="nav-link h3 text-uppercase text-danger" href="#">Car Hire</a>
+              <span class="navbar-text">
+                <div class="collapse navbar-collapse " id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="display: flex; gap: 50px;">
+                      <li class="nav-item">
+                        <a class="nav-link h3 text-uppercase text-danger"  href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link h3 text-uppercase text-danger" href="#">Contact</a>
+                      </li>
+                    </ul>
+                </div>
+              </span>
+            </div>
+          </nav>
+    </header>
+
+    <section class="container mt-5">
+        <h1 class="text-center">Please Select the Service Below.</h1>
+        <div class="d-flex justify-content-between mt-5">
+            <div class="card text-white bg-secondary  mb-3" style="max-width: 16rem;" id="viewCars">
+                <div class="card-body" >
+                  <a href="#" class="card-title text-decoration-none fs-5 fw-bold text-white">View All Cars</a>
+                </div>
+            </div>
+            <div class="card bg-warning mb-3" style="max-width: 16rem;" id="search" >
+                <div class="card-body">
+                    <a href="" class="card-title text-decoration-none fs-5 fw-bold text-white">Search Cars</a>
+                </div>
+            </div>
+            <div class="card text-white bg-success mb-3" style="max-width: 16rem;">
+                <div class="card-body">
+                  <a href="" class="card-title text-decoration-none fs-5 fw-bold text-white">List of Available cars</a>
+                </div>
+            </div>
+            <div class="card text-white bg-primary mb-3" style="max-width: 16rem;">
+                <div class="card-body">
+                  <a href="" class="card-title text-decoration-none fs-5 fw-bold text-white">All Borrowed Cars</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="search-element">
+        <div class="d-flex justify-content-between container mt-5">
+            <div>
+                <label for="year" class="form-label fs-4 fw-bold">Year</label>
+                <br>
+                <input type="number" id="year" class="form-label" placeholder="Year">   
+            </div>
+
+            <div>
+                <label for="price" class="form-label fs-4 fw-bold">Price Max</label>
+                <br>
+                <input type="number" id="price" class="form-label" placeholder="Price Max">   
+            </div>
+
+            <div>
+                <label for="make" class="form-label fs-4 fw-bold">Make</label>
+                <br>
+                <select id="make" name="make" class="form-select">
+                    <option value="volvo">Toyota</option>
+                    <option value="saab">Audi</option>
+                    <option value="fiat">Nissan</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="model" class="form-label fs-4 fw-bold">Model</label>
+                <br>
+                <select id="model" name="model" class="form-select">
+                    <option value="volvo">Toyota</option>
+                    <option value="saab">Audi</option>
+                    <option value="fiat">Nissan</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="text-end mt-5 container">
+            <button type="button" class="btn btn-secondary">Search Result</button>
+        </div>
+    </section>
+
+    <section class="container mt-5 viewCarsResult">
+        <div class="text-center fs-4" id="viewResultFound">
+
+        </div>
+            <div class="row mt-5 container" id="viewResult"></div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

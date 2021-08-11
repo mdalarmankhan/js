@@ -1,0 +1,60 @@
+[
+    {
+        "carNo": 1,
+        "model": "Prado",
+        "make": "Toyota",
+        "price": 1000,
+        "year": 2021,
+        "img" : "https://www.slashgear.com/wp-content/uploads/2020/08/20200803_01_02_s-1280x720.jpg",
+        "borrowed": false
+
+    },
+    {
+        "carNo": 2,
+        "model": "X trail",
+        "make": "Nissan",
+        "price": 500,
+        "year": 2020,
+        "img" : "https://roboticsandautomationnews.com/wp-content/uploads/2017/08/X-Trail-Ti_Ruby-Red.jpg",
+        "borrowed": false
+    },
+    {
+        "carNo": 3,
+        "model": "Outback",
+        "make": "Subaru",
+        "price": 700,
+        "year": 2016,
+        "img" : "https://cdn.oem-production.subaru.com.au/media/7933/my21-outback-touring-360.jpg",
+        "borrowed": false
+    }
+    ,
+
+    {
+        "carNo": 1,
+        "model": "Prado",
+        "make": "Toyota",
+        "price": 1000,
+        "year": 2021,
+        "img" : "https://www.slashgear.com/wp-content/uploads/2020/08/20200803_01_02_s-1280x720.jpg",
+        "borrowed": false
+
+    },
+    {
+        "carNo": 2,
+        "model": "X trail",
+        "make": "Nissan",
+        "price": 500,
+        "year": 2020,
+        "img" : "https://roboticsandautomationnews.com/wp-content/uploads/2017/08/X-Trail-Ti_Ruby-Red.jpg",
+        "borrowed": false
+    },
+    {
+        "carNo": 3,
+        "model": "Outback",
+        "make": "Subaru",
+        "price": 700,
+        "year": 2016,
+        "img" : "https://cdn.oem-production.subaru.com.au/media/7933/my21-outback-touring-360.jpg",
+        "borrowed": false
+    }
+]
